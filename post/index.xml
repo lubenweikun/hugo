@@ -42,13 +42,16 @@
 	
 	
 &gt;
-&amp;lsquo;&amp;lsquo;&amp;lsquo;sh
+&amp;hellip;sh
 cd test
 git init
 git add .
 git commit -m &amp;ldquo;update&amp;rdquo;
 git push
-&amp;rsquo;&amp;rsquo;&amp;rsquo;&lt;/p&gt;
+&amp;hellip;
+,,,sh
+git push
+,,,&lt;/p&gt;
 </description>
         </item>
         
