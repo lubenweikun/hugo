@@ -19,7 +19,9 @@
 &lt;/h5&gt;&lt;h3 id=&#34;how-to-edit&#34;&gt;how to edit?
 &lt;/h3&gt;&lt;h6 id=&#34;the-six-is-end&#34;&gt;the six is end
 &lt;/h6&gt;&lt;p&gt;-test
--link test &amp;lt;www.baidu.com&amp;gt;
+-link test &lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.baidu.com&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;www.baidu.com&#34; &gt;地址&lt;/a&gt;
 -chajian test&lt;/p&gt;
 &lt;h6 id=&#34;快捷键测试-crtlshift为&#34;&gt;快捷键测试 crtl+shift+{}为#
 &lt;/h6&gt;&lt;p&gt;&lt;img src=&#34;https://wallhere.com/es/wallpaper/2262232&#34;
@@ -39,7 +41,14 @@
 	loading=&#34;lazy&#34;
 	
 	
-&gt;s&lt;/p&gt;
+&gt;
+&amp;lsquo;&amp;lsquo;&amp;lsquo;sh
+cd test
+git init
+git add .
+git commit -m &amp;ldquo;update&amp;rdquo;
+git push
+&amp;rsquo;&amp;rsquo;&amp;rsquo;&lt;/p&gt;
 </description>
         </item>
         
