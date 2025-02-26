@@ -18,11 +18,11 @@
 &lt;/h4&gt;&lt;h5 id=&#34;test&#34;&gt;test
 &lt;/h5&gt;&lt;h3 id=&#34;how-to-edit&#34;&gt;how to edit?
 &lt;/h3&gt;&lt;h6 id=&#34;the-six-is-end&#34;&gt;the six is end
-&lt;/h6&gt;&lt;p&gt;-test
--link test &lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.baidu.com&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;www.baidu.com&#34; &gt;地址&lt;/a&gt;
--chajian test&lt;/p&gt;
+&lt;/h6&gt;&lt;p&gt;-test&lt;/p&gt;
+&lt;p&gt;-link test &lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.baidu.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;www.baidu.com&#34; &gt;地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;-chajian test&lt;/p&gt;
 &lt;h6 id=&#34;快捷键测试-crtlshift为&#34;&gt;快捷键测试 crtl+shift+{}为#
 &lt;/h6&gt;&lt;p&gt;&lt;img src=&#34;https://wallhere.com/es/wallpaper/2262232&#34;
 	
@@ -41,17 +41,61 @@
 	loading=&#34;lazy&#34;
 	
 	
-&gt;
-&amp;hellip;sh
-cd test
-git init
-git add .
-git commit -m &amp;ldquo;update&amp;rdquo;
-git push
-&amp;hellip;
-,,,sh
-git push
-,,,&lt;/p&gt;
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用测试
+列表测试：&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;第一&lt;/li&gt;
+&lt;li&gt;第二&lt;/li&gt;
+&lt;li&gt;第三
+无序列表：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;1&lt;/li&gt;
+&lt;li&gt;2&lt;/li&gt;
+&lt;li&gt;3
+任务列表：&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 第一&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 第二&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 第三&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 第四
+代码：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;$$
+\frac{\partial f}{\partial x} = 2\sqrt1[a]x
+$$&lt;p&gt;
+表格:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;姓名&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;年龄&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;成绩&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;张三&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;21&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;333&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         </item>
         <item>
