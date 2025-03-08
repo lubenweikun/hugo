@@ -58,22 +58,9 @@
 &lt;li&gt;技巧：按住 Ctrl 点击骨骼可快速选择对应顶点组&lt;/li&gt;
 &lt;li&gt;手动修复技巧：旋转关节（如肘部、膝盖），观察网格变形。使用权重绘制（快捷键 Ctrl+Tab）检查权重分布。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;工具&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;用途&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;快捷键&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Draw&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;直接绘制权重值&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;鼠标左键&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;|工具|用途|快捷键|&lt;/p&gt;
+&lt;p&gt;| :&amp;mdash;-: | :&amp;mdash;-: | :&amp;mdash;-: |&lt;/p&gt;
+&lt;p&gt;|Draw|直接绘制权重值|鼠标左键|&lt;/p&gt;
 &lt;p&gt;|Blur|柔化权重过渡区域|:Shift+左键|&lt;/p&gt;
 &lt;p&gt;|Smooth|平滑权重分布|B+拖动|&lt;/p&gt;
 &lt;p&gt;|Vertex Group Select|快速选择受骨骼影响的顶点|L+点击骨骼|&lt;/p&gt;
@@ -103,8 +90,8 @@
 &lt;h2 id=&#34;总结&#34;&gt;总结
 &lt;/h2&gt;&lt;p&gt;Auto-Rig Pro的强大之处在于将复杂的绑定技术封装为直观工具，同时保留了足够的自定义空间。无论你是想快速产出游戏资源，还是追求影视级生物动画，它都能提供高效的工作流。建议从标准人形绑定入手，逐步探索面部与生物系统，最终结合物理模拟实现角色动感的全面突破。&lt;/p&gt;
 &lt;h2 id=&#34;插件链接&#34;&gt;插件链接
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.quark.cn/s/da9dba960fa4#/list/share&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;下载链接来源：b站郭吉军插件分享&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;下载链接来源：b站郭吉军插件分享：&lt;a class=&#34;link&#34; href=&#34;https://pan.quark.cn/s/da9dba960fa4#/list/share&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;链接&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
