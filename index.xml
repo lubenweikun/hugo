@@ -70,11 +70,21 @@
 		data-flex-basis=&#34;639px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;|:工具:|:用途:|:快捷键:|
-|:Draw:|:直接绘制权重值:|:鼠标左键:|
-|:Blur:|:柔化权重过渡区域:|:Shift+左键:|
-|:Smooth:|:平滑权重分布:|:B+拖动:|
-|:Vertex Group Select:|:快速选择受骨骼影响的顶点:|:L+点击骨骼:|&lt;/p&gt;
+&lt;p&gt;|工具|用途|快捷键|
+|Draw|直接绘制权重值|鼠标左键|
+|Blur|柔化权重过渡区域|:Shift+左键|
+|Smooth|平滑权重分布|B+拖动|&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Vertex Group Select&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;快速选择受骨骼影响的顶点&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;L+点击骨骼&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h4 id=&#34;3控制器定制&#34;&gt;3.控制器定制
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;修改控制器颜色（如红色左臂、蓝色右臂）提升辨识度。&lt;/li&gt;
