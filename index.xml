@@ -21,8 +21,6 @@
 	srcset=&#34;https://lubenweikun.github.io/hugo/p/auto-rig-pro/1_hu_8fa3828f2158bcf.png 480w, https://lubenweikun.github.io/hugo/p/auto-rig-pro/1_hu_4a39aaba5f5ca289.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;image test&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;58&#34;
@@ -60,6 +58,18 @@
 &lt;li&gt;技巧：按住 Ctrl 点击骨骼可快速选择对应顶点组&lt;/li&gt;
 &lt;li&gt;手动修复技巧：旋转关节（如肘部、膝盖），观察网格变形。使用权重绘制（快捷键 Ctrl+Tab）检查权重分布。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://lubenweikun.github.io/hugo/p/auto-rig-pro/2.png&#34;
+	width=&#34;810&#34;
+	height=&#34;304&#34;
+	srcset=&#34;https://lubenweikun.github.io/hugo/p/auto-rig-pro/2_hu_a5fd4336f7e71db1.png 480w, https://lubenweikun.github.io/hugo/p/auto-rig-pro/2_hu_3254d80bfd6c63ac.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;266&#34;
+		data-flex-basis=&#34;639px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h4 id=&#34;3控制器定制&#34;&gt;3.控制器定制
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;修改控制器颜色（如红色左臂、蓝色右臂）提升辨识度。&lt;/li&gt;
@@ -83,6 +93,8 @@
 &lt;li&gt;启用 Tail Physics 为尾巴添加物理摆动效果。&lt;/li&gt;
 &lt;li&gt;使用 Pose Library 保存“奔跑”、“蹲伏”等常用姿势。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;Auto-Rig Pro的强大之处在于将复杂的绑定技术封装为直观工具，同时保留了足够的自定义空间。无论你是想快速产出游戏资源，还是追求影视级生物动画，它都能提供高效的工作流。建议从标准人形绑定入手，逐步探索面部与生物系统，最终结合物理模拟实现角色动感的全面突破。&lt;/p&gt;
 </description>
         </item>
         <item>
