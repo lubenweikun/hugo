@@ -14,8 +14,21 @@
         
         <guid>https://lubenweikun.github.io/hugo/p/auto-rig-pro/</guid>
         <description>&lt;h2 id=&#34;引言&#34;&gt;引言
-&lt;/h2&gt;&lt;p&gt;在3D角色动画创作中，骨骼绑定（Rigging） 是耗时且技术门槛高的环节。Blender的 Auto-Rig Pro 插件通过自动化与智能化工具，将这一流程效率提升数倍。无论是游戏角色、影视生物，还是独立动画短片，他都能帮助你提高工作效率。
-！&lt;a class=&#34;link&#34; href=&#34;1.png&#34; &gt;如图&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;在3D角色动画创作中，骨骼绑定（Rigging） 是耗时且技术门槛高的环节。Blender的 Auto-Rig Pro 插件通过自动化与智能化工具，将这一流程效率提升数倍。无论是游戏角色、影视生物，还是独立动画短片，他都能帮助你提高工作效率。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lubenweikun.github.io/hugo/p/auto-rig-pro/1.png&#34;
+	width=&#34;523&#34;
+	height=&#34;892&#34;
+	srcset=&#34;https://lubenweikun.github.io/hugo/p/auto-rig-pro/1_hu_8fa3828f2158bcf.png 480w, https://lubenweikun.github.io/hugo/p/auto-rig-pro/1_hu_4a39aaba5f5ca289.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image test&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;140px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h3 id=&#34;auto-rig-pro的核心优势&#34;&gt;Auto-Rig Pro的核心优势
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -38,16 +51,37 @@
 &lt;li&gt;将角色模型调整为标准T-Pose或A-Pose。&lt;/li&gt;
 &lt;li&gt;在插件面板选择 Human 模板，点击 Create Guide 生成初始骨骼框架。&lt;/li&gt;
 &lt;li&gt;拖动骨骼标记点对齐模型关节（如肩膀、膝盖），点击 Generate Rig 完成绑定。&lt;/li&gt;
+&lt;li&gt;进入 Edit Mode，拖动绿色标记点对齐模型关键部位：&lt;/li&gt;
+&lt;li&gt;按 S 缩放骨骼长度匹配肢体比例。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;2权重调整&#34;&gt;2.权重调整
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;使用 Auto Weights 快速分配权重，进入 Weight Paint 模式手动修复问题区域（如腋下褶皱）。&lt;/li&gt;
 &lt;li&gt;技巧：按住 Ctrl 点击骨骼可快速选择对应顶点组&lt;/li&gt;
+&lt;li&gt;手动修复技巧：旋转关节（如肘部、膝盖），观察网格变形。使用权重绘制（快捷键 Ctrl+Tab）检查权重分布。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;3控制器定制&#34;&gt;3.控制器定制
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;修改控制器颜色（如红色左臂、蓝色右臂）提升辨识度。&lt;/li&gt;
 &lt;li&gt;在 Rig Layers 中隐藏面部控制器，专注于身体动画&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;高级功能&#34;&gt;高级功能
+&lt;/h2&gt;&lt;h3 id=&#34;ikfk无缝切换&#34;&gt;IK/FK无缝切换
+&lt;/h3&gt;&lt;p&gt;选择手部控制器，滑动 IK/FK Switch 参数，实时切换模式。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IK模式：适合固定手部位置（如攀爬、托举物体）。&lt;/li&gt;
+&lt;li&gt;FK模式：适合自然摆动动作（如行走时手臂摆动）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;面部表情绑定&#34;&gt;面部表情绑定
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;启用 Face Rig 生成面部骨骼，对齐眼睑、嘴角标记点。&lt;/li&gt;
+&lt;li&gt;绑定形状键（Blend Shapes），通过控制器驱动表情&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;生物绑定四足动物案例&#34;&gt;生物绑定：四足动物案例
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;选择 Quadruped 模板，按狼、猫的骨骼比例调整标记点。&lt;/li&gt;
+&lt;li&gt;启用 Tail Physics 为尾巴添加物理摆动效果。&lt;/li&gt;
+&lt;li&gt;使用 Pose Library 保存“奔跑”、“蹲伏”等常用姿势。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
