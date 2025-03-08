@@ -7,14 +7,24 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>lubenweikun</copyright>
-        <lastBuildDate>Mon, 03 Mar 2025 15:01:29 +0800</lastBuildDate><atom:link href="https://lubenweikun.github.io/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>建模</title>
-        <link>https://lubenweikun.github.io/hugo/p/%E5%BB%BA%E6%A8%A1/</link>
+        <lastBuildDate>Sat, 08 Mar 2025 14:36:29 +0800</lastBuildDate><atom:link href="https://lubenweikun.github.io/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Auto-Rig pro</title>
+        <link>https://lubenweikun.github.io/hugo/p/auto-rig-pro/</link>
+        <pubDate>Sat, 08 Mar 2025 14:36:29 +0800</pubDate>
+        
+        <guid>https://lubenweikun.github.io/hugo/p/auto-rig-pro/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>model</title>
+        <link>https://lubenweikun.github.io/hugo/p/model/</link>
         <pubDate>Mon, 03 Mar 2025 15:01:29 +0800</pubDate>
         
-        <guid>https://lubenweikun.github.io/hugo/p/%E5%BB%BA%E6%A8%A1/</guid>
-        <description>&lt;h2 id=&#34;&#34;&gt;
-&lt;/h2&gt;</description>
+        <guid>https://lubenweikun.github.io/hugo/p/model/</guid>
+        <description>&lt;h2 id=&#34;修改权重工具&#34;&gt;修改权重工具
+&lt;/h2&gt;&lt;p&gt;首先选中骨骼按shift加选模型，然后crtl+tab进入权重模式，
+分别选中不同的骨骼，可以查看其权重分布，可以使用画笔或者梯度工具可以改变其权重分布&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>C#简介</title>
