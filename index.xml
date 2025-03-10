@@ -7,7 +7,92 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>lubenweikun</copyright>
-        <lastBuildDate>Sat, 08 Mar 2025 14:36:29 +0800</lastBuildDate><atom:link href="https://lubenweikun.github.io/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Mar 2025 22:30:29 +0800</lastBuildDate><atom:link href="https://lubenweikun.github.io/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mixamo</title>
+        <link>https://lubenweikun.github.io/hugo/p/mixamo/</link>
+        <pubDate>Mon, 10 Mar 2025 22:30:29 +0800</pubDate>
+        
+        <guid>https://lubenweikun.github.io/hugo/p/mixamo/</guid>
+        <description>&lt;h2 id=&#34;引言&#34;&gt;引言
+&lt;/h2&gt;&lt;p&gt;Mixamo是Adobe旗下的3D角色动画平台，提供海量预制动画与角色模型。Blender本身不直接支持Mixamo动画适配，但通过Blender的Mixamo插件可实现配合完成动画。核心流程如下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从Mixamo下载角色与动画FBX文件&lt;/li&gt;
+&lt;li&gt;通过Blender插件优化绑定与动画适配&lt;/li&gt;
+&lt;li&gt;最终导出至游戏引擎或渲染工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;准备工作
+&lt;/h2&gt;&lt;h3 id=&#34;注册mixamo并下载资源&#34;&gt;注册Mixamo并下载资源
+&lt;/h3&gt;&lt;h4 id=&#34;访问-mixamo官网注册免费账号&#34;&gt;访问 Mixamo官网，注册免费账号。
+&lt;/h4&gt;&lt;h4 id=&#34;选择角色或上传自定义模型支持fbxobj格式需注意纹理嵌入&#34;&gt;选择角色或上传自定义模型（支持FBX、OBJ格式，需注意纹理嵌入
+&lt;/h4&gt;&lt;h3 id=&#34;安装blender中的mixamo插件&#34;&gt;安装blender中的Mixamo插件
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;下载地址:B站郭吉军免费插件分享&lt;/li&gt;
+&lt;li&gt;安装方法：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Blender中打开 Edit &amp;gt; Preferences &amp;gt; Add-ons，点击 Install 选择插件压缩包&lt;/li&gt;
+&lt;li&gt;启用插件并保存设置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;blender插件核心功能与操作&#34;&gt;Blender插件核心功能与操作
+&lt;/h2&gt;&lt;h3 id=&#34;批量导入与动画合并&#34;&gt;批量导入与动画合并
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;将多个动画烘焙至单个文件，避免重复导入。导入角色FBX后，点击插件面板的 Bake Animations；选择多个动画FBX文件，自动合并至同一角色骨骼。&lt;/li&gt;
+&lt;li&gt;动画优化与清理功能：去除冗余关键帧，减少文件体积。&lt;/li&gt;
+&lt;li&gt;Root Motion添加，为动画添加位移数据，使角色移动更自然（适用于游戏引擎）。启用 Add Root Motion，插件自动生成根骨骼位移曲线。&lt;/li&gt;
+&lt;li&gt;NLA（非线性动画）编辑，在Blender的NLA编辑器中管理动画片段，支持叠加与过渡。导入动画后，插件自动将片段添加至NLA轨道，拖动调整时序。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;详细工作流程&#34;&gt;详细工作流程
+&lt;/h2&gt;&lt;h3 id=&#34;从mixamo导出角色与动画&#34;&gt;从Mixamo导出角色与动画
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;上传自定义模型至Mixamo（需标记关键点如手腕、膝盖10）。&lt;/li&gt;
+&lt;li&gt;应用动画后下载FBX文件，确保勾选 Embed Media 以避免纹理丢失412。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;blender插件导入与优化&#34;&gt;Blender插件导入与优化
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;导入FBX：使用插件 Import Mixamo FBX 功能，自动缩放模型（Blender单位需设为米，缩放值0.011）。&lt;/li&gt;
+&lt;li&gt;若材质丢失，手动在材质属性中重新链接纹理（路径指向下载的纹理文件1）。&lt;/li&gt;
+&lt;li&gt;动画适配：使用插件 Retarget Animation 将Mixamo骨骼映射至Rigify等自定义骨骼（需提前绑定9）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;动画编辑与导出&#34;&gt;动画编辑与导出
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;剪辑动画：在Dope Sheet中切割关键帧（按 K 分割片段）。&lt;/li&gt;
+&lt;li&gt;导出设置：选择 File &amp;gt; Export &amp;gt; FBX，勾选 Selected Objects 与 Apply Transform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;常见问题&#34;&gt;常见问题
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;问题&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;解决方案&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;材质显示为紫色&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;重新链接纹理文件或创建原理化BSDF材质&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;动画播放时模型扭曲&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;进入权重绘制模式（Weight Paint）调整骨骼影响范围&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;骨骼错位&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;应用旋转与缩放（Ctrl+A 选 Rotation &amp;amp; Scale）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;mixamo与blender协作的进阶技巧&#34;&gt;Mixamo与Blender协作的进阶技巧
+&lt;/h2&gt;&lt;h3 id=&#34;自定义骨骼绑定&#34;&gt;自定义骨骼绑定
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;使用Blender内置插件 Rigify 创建高级骨骼，通过插件重定向Mixamo动画&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;面部动画支持&#34;&gt;面部动画支持：
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Mixamo导出的角色若包含面部混合形状（Blendshapes）,可在Blender中通过Shape Keys控制&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Auto-Rig pro</title>
         <link>https://lubenweikun.github.io/hugo/p/auto-rig-pro/</link>
         <pubDate>Sat, 08 Mar 2025 14:36:29 +0800</pubDate>
